@@ -1,6 +1,6 @@
 # React Boilerplate
 
-Created using [link](https://github.com/facebook/create-react-app "creat-react-app"), with some useful features.
+Created using [create-react-app](https://github.com/facebook/create-react-app), with some useful features.
 
 ## Features
 
