@@ -1,9 +1,5 @@
 {
   "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "classes": true,
-    "jsx": true
-  },
   "extends": ["airbnb", "prettier"],
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
@@ -11,9 +7,11 @@
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
     "react/no-danger": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": "off",
     "linebreak-style": "off",
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "jsx-a11y/anchor-is-valid": "off"
   },
   "settings": {
     "import/core-modules": []
